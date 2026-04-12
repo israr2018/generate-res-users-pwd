@@ -1,0 +1,47 @@
+# Python bytecode
+
+**pycache**/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+
+myenv
+.env/
+.venv/
+
+# Pip / dependency files
+
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Generated files
+
+generated-pwd.txt
+
+# Logs
+
+*.log
+
+# OS files
+
+.DS_Store
+Thumbs.db
+
+# Editor files
+
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Python packaging
+
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Environment variables
+
+.env

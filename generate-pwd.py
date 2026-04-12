@@ -7,9 +7,10 @@ plain_password = input("Enter plain password: ")
 encrypted_password = pbkdf2_sha512.using(rounds=600000).hash(plain_password)
 
 # Save to file
-with open("generated-pwd.txt", "w") as f:
+with open("generated-pwd.txt", "a") as f:
     f.write(f"Plain Password: {plain_password}\n")
     f.write(f"Encrypted Password: {encrypted_password}\n")
+    f.write("---------------------------------\n")
 
 print("Password encrypted successfully.")
 print("Encrypted Password:", encrypted_password)
