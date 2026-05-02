@@ -6,9 +6,7 @@
 
 # Virtual environments
 
-myenv
-.env/
-.venv/
+
 
 # Pip / dependency files
 
@@ -45,3 +43,4 @@ dist/
 # Environment variables
 
 .env
+venv/
